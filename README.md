@@ -1,6 +1,7 @@
 # boids
 
-class boid
+
+class boid :
 
   location , velocity , acceleration , maxspeed , maxforce ,       物理运动相关
   update( ) , applyforce( ) , display( ) , checkedge( ) ,
@@ -17,12 +18,14 @@ class boid
      update( ) , checked( ) , display( ) ,
 
 
+
 class flock :
 
   build ArrayList<boid> ,          构建 boids
   addBoid ( ) : add each boid ,
 
   run ( ) : each   boid .run( ) ;       逐个运行每个 boid.run( ) 
+
 
 
 main :
